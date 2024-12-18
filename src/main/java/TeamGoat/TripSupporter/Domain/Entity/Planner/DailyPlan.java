@@ -1,5 +1,6 @@
 package TeamGoat.TripSupporter.Domain.Entity.Planner;
 
+import TeamGoat.TripSupporter.Domain.Entity.User.UserProfile;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Builder;
@@ -36,4 +37,5 @@ public class DailyPlan {
         this.planDate = planDate;
         this.planner = planner;
     }
+
 }
